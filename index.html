@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather website-sneh674</title>
+    <link rel="stylesheet" href="weather.css">
+  </head>
+  <body class="body flex just" id="body">
+    <div class="mbox" style="margin-top: 4%;">
+      <div class="nav flex just">
+        <div class="search flex" style="justify-content: space-between; width: 80%; padding-top: 10px; margin-bottom: 5%;">
+            <input type="text" placeholder="Enter city name" id="sbox" style="width: 85%;">
+            <button id="but"><img src="images/icons8-search-50.png" alt="Search" style="height: 30px;"></button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="condition flex just">
+          <img src="images/sunny.png" alt="clear" style="width: 30%;" id="weathericon">
+        </div>
+        <div class="tcbox flex just"><div class="temp tcfont">30&degC</div></div>
+        <div class="tcbox flex just"><div class="cname tcfont">Ahmedabad</div></div>
+        <div class="humind flex" style="margin-top: 50px; justify-content: space-around;">
+          <div class="hum">
+            <div class="humtitle flex just">Humidity</div>
+            <div class="humm flex just">
+              <img src="images/humidity.png" alt="">
+              <div class="humidity flex just">40%</div>
+            </div>
+          </div>
+          <div class="win">
+            <div class="wintitle flex just">Wind Speed</div>
+            <div class="winn flex just">
+              <img src="images/wind.png" alt="">
+              <div class="wind flex just">25km/h</div>
+            </div>
+          </div>
+        </div>
+        <div class="timebox flex just" style="font-size: x-large; margin-top: 5%;">
+          <div class="timehead" style="color: rgb(225, 43, 43);">Last recorded time :&nbsp;</div>
+          <div class="time" style="color: rgb(27, 240, 20);">12:00</div>
+        </div>
+        <div class="datebox flex just" style="font-size: x-large; margin-top: 1%;">
+          <div class="datehead" style="color: rgb(251, 173, 70);">Date :&nbsp;</div>
+          <div class="date" style="color: rgb(251, 173, 70);"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
