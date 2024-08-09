@@ -1,0 +1,110 @@
+.flex{
+    display: flex;
+}
+
+.just{
+    justify-content: center;
+}
+
+.mbox{
+    /* background-color: aqua;  */
+    width: 40%;
+    border-radius: 20px;
+    padding: 10px;
+    background: linear-gradient(45deg,rgb(38, 164, 218),rgb(226, 91, 185),rgb(176, 190, 42));
+}
+
+#sbox{
+    border: none;
+    padding-left: 10px;
+    border-radius: 15px;
+    color: grey;
+}
+
+#but{
+    border: none;
+    border-radius: 15px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+.tcfont{
+    font-size: xxx-large;
+}
+
+.body{
+    background-color: rgb(89, 157, 169);
+}
+
+/* https://www.iconfinder.com/search/icons?family=style-experiment */
+
+/* 813 */
+@media (max-width: 813px) {
+    .mbox {
+      width: 60%; /* Increased width for smaller screens */
+    }
+}
+
+@media (max-width: 554px) {
+    .mbox {
+      width: 80%; /* Increased width for smaller screens */
+    }
+}
+
+.humtitle{
+    font-size: xx-large;
+}
+.humm img{
+    width: 50px;
+}
+.humidity{
+    font-size: xx-large;
+    padding-top: 7px;
+}
+/* 416 */
+@media (max-width: 416px) {
+    .humm img {
+        width: 40px;
+    }
+
+    .humidity {
+        font-size: x-large; /* Adjust font size for smaller screens if needed */
+    }
+
+    .humtitle{
+        font-size: x-large;
+    }
+}
+
+
+.wintitle{
+    font-size: xx-large;
+}
+.winn img{
+    width: 50px;
+}
+.wind{
+    font-size: xx-large;
+    padding-top: 7px;
+}
+/* 416 */
+@media (max-width: 416px) {
+    .winn img {
+        width: 40px;
+    }
+
+    .wind {
+        font-size: x-large; /* Adjust font size for smaller screens if needed */
+    }
+
+    .wintitle{
+        font-size: x-large;
+    }
+}
