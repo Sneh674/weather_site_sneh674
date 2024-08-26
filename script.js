@@ -25,6 +25,10 @@ async function fetchWeather(city) {
             wicon.src='images/light_rain.png';
             document.getElementById("body").style.backgroundColor='rgb(89, 157, 169)';
         }
+        if(result.current.condition.text=='Light rain'){//modified
+            wicon.src='images/light_rain.png';
+            document.getElementById("body").style.backgroundColor='rgb(89, 157, 169)';
+        }
         if(result.current.condition.text=='Light drizzle'){
             wicon.src='images/light_rain.png';
             document.getElementById("body").style.backgroundColor='rgb(89, 157, 169)';
